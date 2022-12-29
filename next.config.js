@@ -5,7 +5,10 @@ const nextConfig = {
     stg: {
       apiKey: 'aaa',
     }
-  }
+  },
+  images: {
+    domains: ["fakestoreapi.com"],
+  },
 }
 
 module.exports = nextConfig
