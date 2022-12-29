@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false, // do not change to true, if in true, the useEffect will be called twice.
+  env: {
+    stg: {
+      apiKey: 'aaa',
+    }
+  }
 }
 
 module.exports = nextConfig
